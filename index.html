@@ -43,11 +43,14 @@
         </div>
         <div id="links_div2" class="links_div displayLinks">
           <div>
-            <a href="#project_cards_div" class="header_links">My Work</a>
+            <a href="#projectsHeader" class="header_links">My Work</a>
           </div>
-          <div><a href="#" class="header_links">Experience</a></div>
-          <div><a href="#" class="header_links">Reviews</a></div>
-          <div><a href="#" class="header_links">Services</a></div>
+          <div>
+            <a href="#exTextContainer" class="header_links">Experience</a>
+          </div>
+          <div>
+            <a href="#skillsContainer" class="header_links">Services</a>
+          </div>
           <div><a href="#" class="header_links">Contact Me</a></div>
         </div>
       </div>
@@ -132,11 +135,12 @@
                 alt="Rock Paper & Scissor Game Image" />
             </a>
             <div id="cardInfoContainer">
-              <div id="cardViewLink">
+              <div id="cardViewLink " class="ProjectviewLink">
                 <p>Rock Paper & Scissor Game</p>
                 <a
                   href="https://rahamka.github.io/Rock_Paper_Scissors/"
                   id="projectLink"
+                  class="rock_paper_scissor_link"
                   target="_blank"
                   >🌐</a
                 >
@@ -189,6 +193,85 @@
                   JavaScript, using arrays and DOM manipulation to handle game
                   logic and dynamic UI updates.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Cards Section -->
+      <div id="experience_container">
+        <div id="exTextContainer">
+          <h1>My Experience</h1>
+        </div>
+        <div id="currentConditionDiv">
+          <p>
+            I’ve been building and improving my frontend development skills by
+            creating responsive websites and web applications using HTML, CSS,
+            and JavaScript. I’m also working on portfolio projects to showcase
+            my work and gain practical experience.
+          </p>
+        </div>
+
+        <div id="mainDiv">
+          <div id="experienceContainer">
+            <div id="experienceCard">
+              <h2>Frontend Developer</h2>
+              <p class="companyName">CodeAlpha - India</p>
+            </div>
+            <div id="jobDiscriptionPara">
+              <ol>
+                <li>
+                  Worked on building responsive and user-friendly web interfaces
+                  using HTML, CSS, and JavaScript. Converted design concepts
+                  into clean, functional webpages, fixed UI issues, improved
+                  responsiveness, and added basic interactivity. Gained hands-on
+                  experience by completing real-world frontend tasks and
+                  projects within deadlines.
+                </li>
+              </ol>
+            </div>
+            <!-- Job Duration Div -->
+            <div id="jobDurationDiv">
+              <p>December 2025 - Present</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Services Section -->
+        <div id="serviceContainer">
+          <div id="servicePara">
+            <h1>Services</h1>
+          </div>
+          <div id="abilityDivs">
+            <div id="abilityDiv">
+              <p>What i can do for you?</p>
+            </div>
+            <div id="IcanPara">
+              <p>I can help you with the following</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills/Services Container -->
+        <div id="containerResize">
+          <div id="skillsContainer">
+            <div id="skillName">Frontend Development</div>
+            <div id="languagesDiv">
+              <div id="javaScriptLang" class="langIconDiv">
+                <img
+                  src="profileImage/Js.png"
+                  alt="JavaScriptLogo"
+                  class="JavaScriptLogo" />
+              </div>
+              <div id="cssLang" class="langIconDiv">
+                <img src="profileImage/CSS.png" alt="CSSLogo" class="CSSLogo" />
+              </div>
+              <div id="javaScriptLang" class="langIconDiv">
+                <img
+                  src="profileImage/HTML.png"
+                  alt="htmlLogo"
+                  class="htmlLogo" />
               </div>
             </div>
           </div>
